@@ -22,4 +22,18 @@ npm run lint
 npm test
 ```
 
+## Continue with Codex
+
+Open this repository as the Codex working directory and ask Codex to read
+`AGENTS.md`, `PROJECT_STATUS.md`, and this README before changing code. The
+current recommended milestone is real WebMCP-client interoperability testing;
+do not add more visual polish until that evidence exists.
+
+```text
+Read AGENTS.md, README.md, and PROJECT_STATUS.md completely. Verify the clean
+baseline with npm run lint and npm test. Then implement only the next milestone
+documented in PROJECT_STATUS.md, preserving the deterministic domain engine and
+honestly recording all verified evidence and remaining limitations.
+```
+
 MIT licensed.
